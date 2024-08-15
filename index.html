@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon-16x16.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ahmed Mansour</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__lop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <!-- <li><a href="#" class="navigation__link">Media</a></li> -->
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input id="toggle" class="toggle__checkbox" type="checkbox" />
+          <label class="toggle__label" for="toggle"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Frontend Developer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Ahmed Mansour</span>, l leamed
+            from
+            <a
+              class="bio__almdrasa"
+              href="https://www.almdrasa.com/"
+              target="_blank"
+              >Almdrasa.com</a
+            >, l working in the field of <br />
+            Front-end Development,Here are my social <br />
+            media link:
+            <a
+              class="bio__facebook"
+              href="https://www.facebook.com/profile.php?id=100067795884907"
+              target="_blank"
+              >Facebook</a
+            >,
+            <a
+              class="bio__linkedin"
+              href="https://www.linkedin.com/in/ahmedmansour2005/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            and
+            <a
+              class="bio__githup"
+              href="https://github.com/AhmedMansour200515"
+              target="_blank"
+              >GetHup</a
+            >.
+          </p>
+          <a class="bio__links say-hi-link" href="#contact">Say Hi</a>
+          <a class="bio__links find-out-link" href="#">
+            Download CV <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images/personal-pic.png"
+            alt="personal pic of Mohamed Abusrea"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">6Months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">4 Months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">2 Months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">1 Months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__years">1 Months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React testing library</h2>
+            <span class="skills__years">1 Months</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="images/project-1.jpg"
+            alt="Quran Tap Extension"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Quran Tap <br />Extension</h3>
+            <p class="porjects__description">
+              Quran Tab is an Islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+            <a
+              href="https://bit.ly/qt-chrome"
+              class="projects__link"
+              target="_blank"
+              >Chrome Link</a
+            >
+            <span>-</span>
+            <a
+              href="https://bit.ly/qt-edge"
+              class="projects__link"
+              target="_blank"
+              >Edge Link</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Quran Station <br />
+              Extension
+            </h3>
+            <p class="porjects__description">
+              Small extension that gives you access to over 100 stations to help
+              you listen to the Quran from your favorite reciters easily
+              Quran-Station has over 100 stations to help you listen to the
+              Quran from your favorite reciters in a quick and easy way.
+            </p>
+            <a
+              class="projects__link"
+              href="https://bit.ly/qs-chrome"
+              target="_blank"
+              >Chrome Link</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://bit.ly/qs-firefox"
+              target="_blank"
+              >Firefox Link</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://bit.ly/quran-station-edge"
+              target="_blank"
+              >Edge Link</a
+            >
+          </div>
+          <img
+            class="projects__img"
+            src="images/project-2.jpg"
+            alt="Quran Station Extension"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          What My <br />
+          Clients Says
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Ahmed has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Ahmed to
+              own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__opinion">
+              Ahmed will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="clients__opinion">
+              As a Junior Frontend Developer, I’m excited about the bright
+              future ahead in the tech industry. My combination of technical
+              expertise, adaptability, and collaborative spirit positions me to
+              make a significant impact in the world of web development.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+
+          <a href="mailto:ahmedmansour200515@gmail.com" class="contact__email"
+            >ahmedmansour200515@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              class="contact__social"
+              href="https://www.facebook.com/profile.php?id=100067795884907"
+              target="_blank"
+            >
+              <img src="images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a class="contact__social" href="#">
+              <img src="images/brand/twitter.svg" alt="twitter" />
+            </a>
+            <a class="contact__social" href="#">
+              <img src="./images/brand/youtube.svg" alt="youtube" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://github.com/AhmedMansour200515"
+              target="_blank"
+            >
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://www.instagram.com/mans__50/"
+              target="_blank"
+            >
+              <img src="./images/brand/instagram.svg" alt="instagram.svg" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://www.linkedin.com/in/ahmedmansour2005/"
+              target="_blank"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="LinkedIn.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__fromContent">
+          <h2 class="h2-heading">Let's Work <br />Together</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                name="Full Name"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                name="Tel Phone"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="Description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2022 by Ahmed Mansour</footer>
+    </div>
+  </body>
+</html>
